@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class CreateList {
 
-	public static int[] createList(int size) {
+	public static int[] createRandomList(int size) {
 		Random random = new Random();
 
 		int[] arr = new int[size];
@@ -16,4 +16,21 @@ public class CreateList {
 		return arr;
 	}
 
+	public static int[] createCrescente(int size) {
+		int [] vector = new int [size];
+		for(int i =0; i < size; i++) {
+			vector [i] = (i+1);
+ 		}
+		return vector;
+	}
+
+	
+	public static int[] createDecrescente(int size) {
+		int [] vector = new int [size];
+		int tamanho = size;
+		for(int i =0; i < size; i++) {
+			vector [i] = (tamanho -1);
+ 		}
+		return vector;
+	}
 }
