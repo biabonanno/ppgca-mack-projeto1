@@ -29,7 +29,8 @@ public class CreateList {
 		int [] vector = new int [size];
 		int tamanho = size;
 		for(int i =0; i < size; i++) {
-			vector [i] = (tamanho -1);
+			tamanho--;
+			vector [i] = tamanho -1;
  		}
 		return vector;
 	}

@@ -431,7 +431,7 @@ public class ProjetoMain {
 		MergeSort.mergeSort(vectorToBeOrdered, 0, vectorToBeOrdered.length - 1);
 		dataFim = new Date();
 		System.out.println("MergeSort com 100.000 elementos decrescentes em milissegundos: " + (dataFim.getTime() - dataInicio.getTime()));
-		
+
 		
 		//QuickSort com 100.000 elementos
 		System.out.println();
